@@ -1,0 +1,25 @@
+.card{
+    width:300px;
+    margin:auto;
+    margin-top: 20px;
+    background-color: rgba(240, 169, 14, 0.83);
+}
+
+.header-image{
+    background-size:cover;
+}
+
+.mat-card-header{
+    background-color: #ffffff;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color:black;
+}
+
+.mat-chip{
+    background-color: black !important;
+}

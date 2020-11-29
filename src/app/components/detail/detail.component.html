@@ -1,0 +1,21 @@
+<div class="container">
+  <mat-card class="card">
+
+    <mat-card-header>
+      <img mat-card-avatar src="{{PokemonImg}}" alt="Photo of Pokemon" class="header-image">
+      <mat-card-title>{{Pokemon.name}}</mat-card-title>
+      <mat-card-subtitle>No. {{Pokemon.id}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image src="{{PokemonImg}}" alt="Photo of a Pokemon">
+    
+    <mat-card-content>
+      <mat-chip-list aria-label="Fish selection">
+        <mat-chip color="primary" selected>Type: {{PokemonType}}</mat-chip>
+        <mat-chip color="accent" selected>Height: {{Pokemon.height}}</mat-chip>
+        <mat-chip color="accent" selected>Weight: {{Pokemon.weight}}</mat-chip>
+      </mat-chip-list>
+    </mat-card-content>
+
+  </mat-card>
+</div>
